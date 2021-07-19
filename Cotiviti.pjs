@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{0A484EC7-135C-4D29-93F6-E47093602505}">
+	<children>
+		<child name="Cotiviti" key="{1FF427FD-FD13-4488-BFFF-02FA3C939D1D}" path="Cotiviti\Cotiviti.mds" />
+	</children>
+	<testItems key="{A2203723-A4E4-4A61-8C82-C356DE6C941C}">
+		<children>
+			<testItem key="{1FF427FD-FD13-4488-BFFF-02FA3C939D1D}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{675BDB39-2118-45C5-B9EF-6AF6014CCEEA}" />
+	<analysis key="{C80FDB08-88E4-4ADB-A03B-F1DFF3229125}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>

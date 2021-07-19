@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{3319D493-D92E-44A8-906C-9FD2B49B9291}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="10" kind="0" dateTime="44396.674212963" objectName="Aliases.Orders.MainForm.StatusBar" objectLeft="8" objectTop="378" objectRight="600" objectBottom="400" clickPointX="22" clickPointY="388" imageFileName="tcvi265161078233961.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="17" kind="0" dateTime="44396.690150463" objectName="Aliases.Cotiviti.Form1.textBox1" objectLeft="102" objectTop="133" objectRight="295" objectBottom="153" clickPointX="133" clickPointY="138" imageFileName="tcvi266538250126960.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="18" kind="0" dateTime="44396.6901851852" objectName="Aliases.Cotiviti.Form1.textBox1" objectLeft="102" objectTop="133" objectRight="295" objectBottom="153" clickPointX="-3849" clickPointY="-235" imageFileName="tcvi266539562126961.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="19" kind="0" dateTime="44396.6902083333" objectName="Aliases.Cotiviti.Form1.button1" objectLeft="295" objectTop="366" objectRight="572" objectBottom="421" clickPointX="429" clickPointY="397" imageFileName="tcvi266543531126962.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

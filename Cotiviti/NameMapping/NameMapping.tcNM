@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{A4F968C7-FBD4-4822-8C75-000A038A0529}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Orders" Key="{9AE29EF2-7E79-4372-BB05-72ED8EDA0556}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Orders" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="MainForm" Key="{51DB3026-FF9F-45D1-BB3B-8BC0CDC42101}">
+								<Image FileName="638541030" Left="0" Top="0" Right="608" Bottom="408" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="MainForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="StatusBar" Key="{479E817A-1E27-4B17-A890-7C41CD7C6EA6}">
+										<Image FileName="2093927767" Left="8" Top="378" Right="600" Bottom="400" />
+										<TypeInfo Item0="{96168245-49B4-4F68-BC65-D6F9A9AF41E6}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="StatusBar" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Cotiviti" Key="{EA49F973-1162-47B6-A681-E61467626DD9}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Cotiviti" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="Form1" Key="{3D2F195D-84E5-4B96-8DA1-79BDEEEE908C}" ExtendedFind="True">
+								<Image FileName="539633824" Left="0" Top="0" Right="816" Bottom="489" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="Form1" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="button1" Key="{4BAE6A85-4AA7-439A-92C8-CF74E1D939E8}">
+										<Image FileName="1590967233" Left="295" Top="366" Right="572" Bottom="421" />
+										<TypeInfo Item0="{0D42499B-A444-48A4-A593-5B3524ACF2DF}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="button1" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="groupBox1" Key="{CAA4C112-4383-4731-AAEA-8A6698350155}">
+										<Image FileName="1597259056" Left="123" Top="91" Right="714" Bottom="163" />
+										<TypeInfo Item0="{735A2BEA-E04C-41F1-90A6-1405149FFB06}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="groupBox1" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="comboBox1" Key="{93EAD0AE-AC41-436F-B140-FE72C54265D2}">
+												<Image FileName="1597259056" Left="456" Top="122" Right="688" Bottom="143" />
+												<TypeInfo Item0="{13A5E933-CA3A-4AA4-B7F8-28D47F780D15}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="comboBox1" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="MyNewTextbox" Key="{392BD1D9-70BE-425C-A160-91A4557FBD22}">
+												<Image FileName="-710041856" Left="152" Top="122" Right="345" Bottom="142" />
+												<TypeInfo Item0="{1891B5EB-8629-4A96-A62C-7258A42864B4}" />
+												<Properties>
+													<Property Name="wText">
+														<Value Value="Lino" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Orders" Owner="{9AE29EF2-7E79-4372-BB05-72ED8EDA0556}">
+			<Child Name="MainForm" Owner="{51DB3026-FF9F-45D1-BB3B-8BC0CDC42101}">
+				<Child Name="StatusBar" Owner="{479E817A-1E27-4B17-A890-7C41CD7C6EA6}" />
+			</Child>
+			<Child Name="StatusBar" Owner="{479E817A-1E27-4B17-A890-7C41CD7C6EA6}" />
+		</Child>
+		<Child Name="StatusBar" Owner="{479E817A-1E27-4B17-A890-7C41CD7C6EA6}" />
+		<Child Name="Cotiviti" Owner="{EA49F973-1162-47B6-A681-E61467626DD9}">
+			<Child Name="Form1" Owner="{3D2F195D-84E5-4B96-8DA1-79BDEEEE908C}">
+				<Child Name="button1" Owner="{4BAE6A85-4AA7-439A-92C8-CF74E1D939E8}" />
+				<Child Name="groupBox1" Owner="{CAA4C112-4383-4731-AAEA-8A6698350155}">
+					<Child Name="comboBox1" Owner="{93EAD0AE-AC41-436F-B140-FE72C54265D2}" />
+					<Child Name="MyNewTextbox" Owner="{392BD1D9-70BE-425C-A160-91A4557FBD22}" />
+				</Child>
+			</Child>
+			<Child Name="MyNewTextbox" Owner="{392BD1D9-70BE-425C-A160-91A4557FBD22}" />
+		</Child>
+	</LogicalNodes>
+</Root>
