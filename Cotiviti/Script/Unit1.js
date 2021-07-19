@@ -8,7 +8,7 @@
 
 function Test1()
 {
-  //Log.Message(Aliases.Cotiviti.MyNewTextbox.wText);
+  Log.Message(Aliases.Cotiviti.MyNewTextbox.wText);
 }
 
 function Test2()
