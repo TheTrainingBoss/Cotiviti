@@ -69,7 +69,61 @@
 													</Property>
 												</Properties>
 											</Child>
+											<Child Name="Street" Key="{CA3FEDE9-28A8-4163-92A5-3D1B7EDB6BCD}">
+												<Image FileName="1311019161" Left="115" Top="226" Right="243" Bottom="246" />
+												<TypeInfo Item0="{C1F2DBEE-FDFD-4449-8CAE-71A9F86A396B}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Street" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="City" Key="{91514B24-D950-405D-830C-391AD94D2771}">
+												<Image FileName="-168540464" Left="339" Top="226" Right="467" Bottom="246" />
+												<TypeInfo Item0="{C1F2DBEE-FDFD-4449-8CAE-71A9F86A396B}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="City" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="State" Key="{7E9E30F3-F285-41A3-BDB7-E4EFF55AD112}">
+												<Image FileName="2079793330" Left="115" Top="258" Right="243" Bottom="278" />
+												<TypeInfo Item0="{C1F2DBEE-FDFD-4449-8CAE-71A9F86A396B}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="State" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Zip" Key="{EC87A664-02CF-4622-98A6-97E429D27BDB}">
+												<Image FileName="1477260135" Left="339" Top="258" Right="467" Bottom="278" />
+												<TypeInfo Item0="{C1F2DBEE-FDFD-4449-8CAE-71A9F86A396B}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Zip" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="CardNo" Key="{0A1815EA-CBE9-443E-B7F5-9684ADF076B2}">
+												<Image FileName="-884674999" Left="115" Top="370" Right="467" Bottom="390" />
+												<TypeInfo Item0="{C1F2DBEE-FDFD-4449-8CAE-71A9F86A396B}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="CardNo" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
+									</Child>
+									<Child Name="ButtonOK" Key="{F158C5AA-FF67-44B0-A2DF-E6A9B41EDDC3}">
+										<Image FileName="-599182806" Left="323" Top="442" Right="395" Bottom="466" />
+										<TypeInfo Item0="{0D42499B-A444-48A4-A593-5B3524ACF2DF}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="ButtonOK" />
+											</Property>
+										</Properties>
 									</Child>
 								</Children>
 							</Child>
@@ -141,7 +195,13 @@
 			<Child Name="OrderForm" Owner="{232C0C66-3FCE-497A-9489-B1CA9247BD14}">
 				<Child Name="Group" Owner="{4DADC6D9-CE9A-4625-AADA-30034688EFB2}">
 					<Child Name="Customer" Owner="{B9652E69-A389-45E4-B0C5-F1AF8953B1D0}" />
+					<Child Name="Street" Owner="{CA3FEDE9-28A8-4163-92A5-3D1B7EDB6BCD}" />
+					<Child Name="City" Owner="{91514B24-D950-405D-830C-391AD94D2771}" />
+					<Child Name="State" Owner="{7E9E30F3-F285-41A3-BDB7-E4EFF55AD112}" />
+					<Child Name="Zip" Owner="{EC87A664-02CF-4622-98A6-97E429D27BDB}" />
+					<Child Name="CardNo" Owner="{0A1815EA-CBE9-443E-B7F5-9684ADF076B2}" />
 				</Child>
+				<Child Name="ButtonOK" Owner="{F158C5AA-FF67-44B0-A2DF-E6A9B41EDDC3}" />
 			</Child>
 		</Child>
 		<Child Name="StatusBar" Owner="{479E817A-1E27-4B17-A890-7C41CD7C6EA6}" />
