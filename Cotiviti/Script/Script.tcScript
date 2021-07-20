@@ -3,5 +3,9 @@
 	<children>
 		<child name="Unit1" key="{3319D493-D92E-44A8-906C-9FD2B49B9291}" path="Unit1.js" />
 		<child name="DataDriven" key="{309491BE-9B72-47C4-9C7C-98AC1479FECC}" path="DataDriven.js" />
+		<child name="LowLevel" key="{68EF679A-204E-4EA7-8B46-A33983BD1E32}" path="LowLevel.js" />
+		<child name="Service" key="{230C3BB9-EBD7-4C81-A7B4-B0398F8A0434}" path="Service.js" />
+		<child name="webtesting" key="{E126EFFD-0D3F-48E8-B1D8-D4FC307FAF5A}" path="webtesting.js" />
+		<child name="WebOrder" key="{3A4A3A78-A79C-42D3-B83E-DE7D1E315A2B}" path="WebOrder.js" />
 	</children>
 </Root>

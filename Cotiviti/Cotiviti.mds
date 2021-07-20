@@ -5,12 +5,22 @@
 		<child name="Script" key="{F8CA81C2-FF08-41BE-9543-C9E559A29538}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
 		<child name="KeywordTests" key="{D93F9B65-A0FE-48D4-B4F7-D792B8D4EA6E}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
 		<child name="Stores" key="{C4736EE0-C141-480A-A1A0-79A48DD1442D}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
+		<child name="MSPaint" key="{453857FF-FB01-4FB4-A90C-5211E286019D}" type="Low-Level Procedures Collection" typeId="{2D89293F-6B07-4679-9906-EFAE4B1A433C}" pluginName="Low-Level Procedures Container" path="MSPaint\MSPaint.tcLLC" />
+		<child name="WebServices" key="{F9FF7AFE-549E-42DB-9127-D5602B15DFDF}" type="Web Services" typeId="{B80B4499-CFD0-49B8-A39C-3264E9ED9080}" pluginName="Web Service Support" path="WebServices\WebServices.tcWSs" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{1767548B-B5C2-492D-BA95-FCEBA6A26814}" version="14">
 		<children />
 	</testItems>
-	<variables key="{B71C2580-64E9-455F-892D-248C3C96F2B6}" />
+	<variables key="{B71C2580-64E9-455F-892D-248C3C96F2B6}">
+		<data Version="4">
+			<Items>
+				<Variable Name="WebOrdersPassword" Type="Password" Local="False">
+					<DefValue StrValue="380039003600310036003300440031004600340044003800410042004600340045004300390038004300370046003100380030003900380043003200300037004200460042003000" />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
 	<settings key="{15F83159-FE1B-4BE7-AC95-4522E8F68E7B}">
 		<settingsVersion value="14.91" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />

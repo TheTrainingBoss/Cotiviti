@@ -1,0 +1,40 @@
+﻿function Test1()
+{
+  Browsers.Item(btChrome).Navigate("http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx");
+  let page = Sys.Browser().Page("http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx");
+  let panel = page.Form("aspnetForm").Panel(2);
+  let textbox = panel.Textbox("username");
+  textbox.SetText("Tester");
+  panel.PasswordBox("password").SetText(Project.Variables.WebOrdersPassword);
+  panel.SubmitButton("button").ClickButton();
+  page.Wait();
+  let table = page.Form("aspnetForm").Table(0);
+  table.Cell(0, 1).Panel(1).Panel(2).Table("orderGrid").Cell(2, 6).Click(35, 23);
+  OCR.Recognize(page.Panel(0).Frame("LPFrame")).BlockByText("Not now").Click();
+  table.Cell(0, 0).Link(2).Click();
+  page.Wait();
+  let cell = page.Form("aspnetForm").Table(0).Cell(0, 1).Panel(1).Table("fmwOrder").Cell(0, 0);
+  textbox = cell.Textbox("txtQuantity");
+  textbox.SetText("1");
+  textbox = cell.Textbox("txtDiscount");
+  textbox.SetText("2");
+  textbox = cell.Textbox("txtName");
+  textbox.SetText("Lino");
+  textbox = cell.Textbox("TextBox2");
+  textbox.SetText("123 street");
+  textbox = cell.Textbox("TextBox3");
+  textbox.SetText("Orlando");
+  textbox = cell.Textbox("TextBox4");
+  textbox.SetText("FL");
+  textbox = cell.Textbox("TextBox5");
+  textbox.SetText("32123");
+  cell.Table("cardList").Cell(0, 0).RadioButton("cardList_0").ClickButton();
+  textbox = cell.Textbox("TextBox6");
+  textbox.SetText("411111111111111");
+  cell.Textbox("TextBox1").SetText("01/23");
+  cell.Panel(1).Link("InsertButton").Click();
+  page.Wait();
+  table = page.Form("aspnetForm").Table(0);
+  aqObject.CheckProperty(table.Cell(0, 1).Panel(1).Table("fmwOrder").Cell(0, 0).Panel(1).TextNode(0), "contentText", cmpEqual, "New order has been successfully added.");
+  table.Cell(0, 0).Link(0).Click();
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{F58C29F2-5DDF-4B2E-B2F0-20CACD2067CD}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{07CEF44D-221B-4839-A772-581E17D39E43}">
+				<Data Description="Runs the specified audits against %p1 and compares the resulting scores with the specified threshold values.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Url" DefVarType="8" VarType="8" ValueType="6" ValueValue="http://www.cotiviti.com" />
+						<Parameter Name="PerformanceThresholdScore" DefVarType="3" DefValueType="1" DefValueValue="90" VarType="3" ValueType="1" ValueValue="90" />
+						<Parameter Name="AccessibilityThresholdScore" DefVarType="3" DefValueType="1" DefValueValue="90" VarType="3" ValueType="1" ValueValue="70" />
+						<Parameter Name="BestPracticesThresholdScore" DefVarType="3" DefValueType="1" DefValueValue="90" VarType="3" ValueType="1" ValueValue="90" />
+						<Parameter Name="SEOThresholdScore" DefVarType="3" DefValueType="1" DefValueValue="90" VarType="3" ValueType="1" ValueValue="90" />
+						<Parameter Name="ProgressiveWebAppThresholdScore" DefVarType="3" DefValueType="1" DefValueValue="90" VarType="3" ValueType="1" ValueValue="90" />
+						<Parameter Name="Mobile" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{70F5F855-F60C-4B6B-BFE9-94ECFA043596}" />
+</Root>

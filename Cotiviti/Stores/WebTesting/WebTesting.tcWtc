@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B205BEB2-E15D-463E-8F95-9AF50A3E8F46}" version="14.0">
+	<children>
+		<child name="CotivitiHomePage" key="{8EF39778-B3BC-4454-8D71-97D0D1F73DED}" type="Web Comparison" typeId="{744C6E7C-6CC3-4731-B0E1-4A58319782AC}" pluginName="Web Checkpoints" path="CotivitiHomePage.tcWcm" />
+		<child name="WebComparison1" key="{1E0F8689-7AFD-4B8C-9AC5-48A2302CA402}" type="Web Comparison" typeId="{744C6E7C-6CC3-4731-B0E1-4A58319782AC}" pluginName="Web Checkpoints" path="WebComparison1.tcWcm" />
+		<child name="SmartBearAccessibility" key="{3786F678-C0AE-4358-95C2-A8C08C504E80}" type="Web Accessibility" typeId="{1F64F68B-7489-4F63-BAEF-EF1587C69DEC}" pluginName="Web Checkpoints" path="SmartBearAccessibility.tcWat" />
+		<child name="WebAccessibility1" key="{0A58769E-CFA1-4FCF-9D7C-504BC3563406}" type="Web Accessibility" typeId="{1F64F68B-7489-4F63-BAEF-EF1587C69DEC}" pluginName="Web Checkpoints" path="WebAccessibility1.tcWat" />
+	</children>
+</Root>

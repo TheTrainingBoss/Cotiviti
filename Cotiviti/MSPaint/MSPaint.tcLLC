@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{2D89293F-6B07-4679-9906-EFAE4B1A433C}" version="14.0">
+	<children>
+		<child name="LinoSignature" key="{DC8A96D3-5DAA-4156-A81B-038286BCC3CA}" path="LinoSignature.tcLLP" />
+	</children>
+</Root>

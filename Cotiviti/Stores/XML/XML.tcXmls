@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{CCCFA5F5-AB3B-408F-95C9-61DE90C5FAD5}" version="14.0">
+	<children>
+		<child name="HelloWorld" key="{9C4F93AF-6D17-4854-A728-E1101CAFB546}" path="HelloWorld\HelloWorld.tcXmlCheckpoint" />
+		<child name="Add" key="{72013002-57F3-49A7-AEBE-2441C896389C}" path="Add\Add.tcXmlCheckpoint" />
+	</children>
+</Root>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope">
+	<SOAP-ENV:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<ns1:HelloWorldResponse xmlns:ns1="http://tempuri.org/">
+			<ns1:HelloWorldResult xsi:type="xsd:string">Hello World</ns1:HelloWorldResult>
+		</ns1:HelloWorldResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

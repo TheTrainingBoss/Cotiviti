@@ -3,5 +3,9 @@
 	<children>
 		<child name="Test1" key="{0D773383-81E6-497F-927C-86AB1E404F0C}" path="Test1.tcKDTest" />
 		<child name="Test2" key="{EB05C1AD-579F-459B-A11A-E4C76A99002D}" path="Test2.tcKDTest" />
+		<child name="Test3" key="{45074306-58E4-4E1D-ADCB-225AD8C06ACB}" path="Test3.tcKDTest" />
+		<child name="CompareWeb" key="{FFF70E2A-7B5C-4F85-8541-B5FF2AF9B4F0}" path="CompareWeb.tcKDTest" />
+		<child name="WebAccessessibility" key="{DFCD170A-F19B-400A-8DA6-C218C8D89C2A}" path="WebAccessessibility.tcKDTest" />
+		<child name="Audit" key="{1C96C19C-2A5C-4933-92CC-ABD50A82A9C5}" path="Audit.tcKDTest" />
 	</children>
 </Root>

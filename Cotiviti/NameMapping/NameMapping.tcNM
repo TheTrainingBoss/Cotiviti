@@ -181,6 +181,120 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="mspaint" Key="{B6DDA0A6-1C27-4DE7-907E-541CDC9CA67C}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="mspaint" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndMSPaintApp" Key="{AD9174C7-21D2-4885-BF6E-4F843027063E}">
+								<Image FileName="1913297825" Left="0" Top="0" Right="1180" Bottom="764" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="MSPaintApp" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="MSPaintView" Key="{6EC05FCF-C506-4CF6-B735-9E58F30D6EC8}">
+										<Image FileName="1913297825" Left="8" Top="147" Right="1172" Bottom="730" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="MSPaintView" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Afx" Key="{C402A149-21CC-47FD-87DA-D2476A50A591}">
+												<Image FileName="1913297825" Left="8" Top="147" Right="1172" Bottom="730" />
+												<TypeInfo Item0="{784EB8F5-0F7C-4364-BA0D-D842D267B92B}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="Afx:*" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{5BFD6109-C4CC-4CD7-80F6-E7511142AD26}">
+						<TypeInfo Item0="{EE941CA7-7A54-4400-98DA-DF39747533C5}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageHealthcareAnalyticsCompanyCo" Key="{5AF71756-3BF7-4CC2-B48D-5F401CF2B07D}">
+								<Image FileName="-1566888291" Left="8" Top="79" Right="1928" Bottom="1088" />
+								<TypeInfo Item0="{D778843B-3B8B-4E53-A1F1-757B2F7E4096}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.cotiviti.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{38557C32-6E75-4EAB-AFAF-54AD5B0C06CA}">
+										<Image FileName="-1566888291" Left="8" Top="79" Right="1911" Bottom="179" />
+										<TypeInfo Item0="{68B716AE-C203-4BAB-AD43-B3E86620344B}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="0" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelHsMenuWrapperModule" Key="{0D7E3E09-DE1A-4532-B80A-A135524F8D0F}" ExtendedFind="True">
+												<Image FileName="-1566888291" Left="891" Top="79" Right="1595" Bottom="175" />
+												<TypeInfo Item0="{68B716AE-C203-4BAB-AD43-B3E86620344B}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="hs_menu_wrapper_module_" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="linkAruna" Key="{0C39A903-99E0-4D9C-A143-46576F9B4120}">
+														<Image FileName="-1566888291" Left="1158" Top="143" Right="1220" Bottom="159" />
+														<TypeInfo Item0="{3382DFA5-ACB4-4F8B-A436-BF2FD12DCCB2}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Link" />
+															</Property>
+															<Property Name="contentText">
+																<Value Value="Aruna" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSoftwareTestingMonitoringDev" Key="{EA15FD5B-BB20-4C30-B187-947B57489536}">
+								<Image FileName="234314767" Left="8" Top="79" Right="1928" Bottom="1088" />
+								<TypeInfo Item0="{D778843B-3B8B-4E53-A1F1-757B2F7E4096}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear.com/" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -215,5 +329,19 @@
 			</Child>
 			<Child Name="MyNewTextbox" Owner="{392BD1D9-70BE-425C-A160-91A4557FBD22}" />
 		</Child>
+		<Child Name="mspaint" Owner="{B6DDA0A6-1C27-4DE7-907E-541CDC9CA67C}">
+			<Child Name="wndMSPaintApp" Owner="{AD9174C7-21D2-4885-BF6E-4F843027063E}">
+				<Child Name="MSPaintView" Owner="{6EC05FCF-C506-4CF6-B735-9E58F30D6EC8}">
+					<Child Name="Afx" Owner="{C402A149-21CC-47FD-87DA-D2476A50A591}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="browser" Owner="{5BFD6109-C4CC-4CD7-80F6-E7511142AD26}">
+			<Child Name="pageHealthcareAnalyticsCompanyCo" Owner="{5AF71756-3BF7-4CC2-B48D-5F401CF2B07D}">
+				<Child Name="linkAruna" Owner="{0C39A903-99E0-4D9C-A143-46576F9B4120}" />
+			</Child>
+			<Child Name="pageSoftwareTestingMonitoringDev" Owner="{EA15FD5B-BB20-4C30-B187-947B57489536}" />
+		</Child>
+		<Child Name="linkAruna" Owner="{0C39A903-99E0-4D9C-A143-46576F9B4120}" />
 	</LogicalNodes>
 </Root>
