@@ -20,7 +20,6 @@
 						</Properties>
 						<Children>
 							<Child Name="MainForm" Key="{51DB3026-FF9F-45D1-BB3B-8BC0CDC42101}">
-								<Image FileName="638541030" Left="0" Top="0" Right="608" Bottom="408" />
 								<Properties>
 									<Property Name="WinFormsControlName">
 										<Value Value="MainForm" />
@@ -28,7 +27,6 @@
 								</Properties>
 								<Children>
 									<Child Name="StatusBar" Key="{479E817A-1E27-4B17-A890-7C41CD7C6EA6}">
-										<Image FileName="2093927767" Left="8" Top="378" Right="600" Bottom="400" />
 										<TypeInfo Item0="{96168245-49B4-4F68-BC65-D6F9A9AF41E6}" />
 										<Properties>
 											<Property Name="WinFormsControlName">
@@ -37,7 +35,6 @@
 										</Properties>
 									</Child>
 									<Child Name="ToolBar" Key="{BFA60EE0-1AE5-4F55-ADD6-8E441D38AA1C}">
-										<Image FileName="406109339" Left="8" Top="51" Right="600" Bottom="79" />
 										<TypeInfo Item0="{F85491F4-58DD-4055-9E9F-36606A11F993}" />
 										<Properties>
 											<Property Name="WinFormsControlName">
@@ -48,7 +45,6 @@
 								</Children>
 							</Child>
 							<Child Name="OrderForm" Key="{232C0C66-3FCE-497A-9489-B1CA9247BD14}">
-								<Image FileName="-2030371292" Left="0" Top="0" Right="488" Bottom="478" />
 								<TypeInfo Item0="{AEA2AA06-E44F-4775-855B-065DBE00B614}" />
 								<Properties>
 									<Property Name="WinFormsControlName">
@@ -57,7 +53,6 @@
 								</Properties>
 								<Children>
 									<Child Name="Group" Key="{4DADC6D9-CE9A-4625-AADA-30034688EFB2}">
-										<Image FileName="-2030371292" Left="11" Top="34" Right="475" Bottom="434" />
 										<TypeInfo Item0="{735A2BEA-E04C-41F1-90A6-1405149FFB06}" />
 										<Properties>
 											<Property Name="WinFormsControlName">
@@ -88,7 +83,6 @@
 						</Properties>
 						<Children>
 							<Child Name="Form1" Key="{3D2F195D-84E5-4B96-8DA1-79BDEEEE908C}" ExtendedFind="True">
-								<Image FileName="539633824" Left="0" Top="0" Right="816" Bottom="489" />
 								<Properties>
 									<Property Name="WinFormsControlName">
 										<Value Value="Form1" />
@@ -96,7 +90,6 @@
 								</Properties>
 								<Children>
 									<Child Name="button1" Key="{4BAE6A85-4AA7-439A-92C8-CF74E1D939E8}">
-										<Image FileName="1590967233" Left="295" Top="366" Right="572" Bottom="421" />
 										<TypeInfo Item0="{0D42499B-A444-48A4-A593-5B3524ACF2DF}" />
 										<Properties>
 											<Property Name="WinFormsControlName">
@@ -105,7 +98,6 @@
 										</Properties>
 									</Child>
 									<Child Name="groupBox1" Key="{CAA4C112-4383-4731-AAEA-8A6698350155}">
-										<Image FileName="1597259056" Left="123" Top="91" Right="714" Bottom="163" />
 										<TypeInfo Item0="{735A2BEA-E04C-41F1-90A6-1405149FFB06}" />
 										<Properties>
 											<Property Name="WinFormsControlName">
@@ -114,7 +106,6 @@
 										</Properties>
 										<Children>
 											<Child Name="comboBox1" Key="{93EAD0AE-AC41-436F-B140-FE72C54265D2}">
-												<Image FileName="1597259056" Left="456" Top="122" Right="688" Bottom="143" />
 												<TypeInfo Item0="{13A5E933-CA3A-4AA4-B7F8-28D47F780D15}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
@@ -123,7 +114,6 @@
 												</Properties>
 											</Child>
 											<Child Name="MyNewTextbox" Key="{392BD1D9-70BE-425C-A160-91A4557FBD22}">
-												<Image FileName="-710041856" Left="152" Top="122" Right="345" Bottom="142" />
 												<TypeInfo Item0="{1891B5EB-8629-4A96-A62C-7258A42864B4}" />
 												<Properties>
 													<Property Name="wText">
