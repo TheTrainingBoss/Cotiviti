@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<Table Name="MyDataset">
+		<Source ConnectionString="Provider=SQLNCLI11.1;Integrated Security=SSPI;Persist Security Info=False;User ID=&quot;&quot;;Initial Catalog=TestComplete;Data Source=.\sqlexpress;Initial File Name=&quot;&quot;;Server SPN=&quot;&quot;" Object="Query" DataObjectContent="SELECT&#13;&#10;&#32;&#32;dbo.Personal.id,&#13;&#10;&#32;&#32;dbo.Personal.FName,&#13;&#10;&#32;&#32;dbo.Personal.LName,&#13;&#10;&#32;&#32;dbo.Personal.Email&#13;&#10;FROM&#13;&#10;&#32;&#32;dbo.Personal" />
+		<Columns>
+			<Column>id</Column>
+			<Column>FName</Column>
+			<Column>LName</Column>
+			<Column>Email</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="Integer">1</Cell>
+				<Cell Type="String">Lino&#32;&#32;&#32;&#32;&#32;&#32;</Cell>
+				<Cell Type="String">Tadros&#32;&#32;&#32;&#32;</Cell>
+				<Cell Type="String">lino@thetraining.com</Cell>
+			</Row>
+			<Row>
+				<Cell Type="Integer">2</Cell>
+				<Cell Type="String">Tim&#32;&#32;&#32;&#32;&#32;&#32;&#32;</Cell>
+				<Cell Type="String">Brown&#32;&#32;&#32;&#32;&#32;</Cell>
+				<Cell Type="String">tim@foo.com</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

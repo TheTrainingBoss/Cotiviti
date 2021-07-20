@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{AA2F3067-5C9B-4CCF-89D4-1F93CE1C510F}" version="14.0">
+	<children>
+		<child name="Cotiviti1_txt" key="{9E057DD4-BD9D-482E-A1B0-1BCC7B48C85F}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="14.0" caption="Cotiviti1_txt" ID="{9E057DD4-BD9D-482E-A1B0-1BCC7B48C85F}" FileName="Files\Cotiviti1.txt" Update="False" />
+		</child>
+	</children>
+</Root>

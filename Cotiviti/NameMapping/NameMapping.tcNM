@@ -36,6 +36,46 @@
 											</Property>
 										</Properties>
 									</Child>
+									<Child Name="ToolBar" Key="{BFA60EE0-1AE5-4F55-ADD6-8E441D38AA1C}">
+										<Image FileName="406109339" Left="8" Top="51" Right="600" Bottom="79" />
+										<TypeInfo Item0="{F85491F4-58DD-4055-9E9F-36606A11F993}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="ToolBar" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="OrderForm" Key="{232C0C66-3FCE-497A-9489-B1CA9247BD14}">
+								<Image FileName="-2030371292" Left="0" Top="0" Right="488" Bottom="478" />
+								<TypeInfo Item0="{AEA2AA06-E44F-4775-855B-065DBE00B614}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="OrderForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Group" Key="{4DADC6D9-CE9A-4625-AADA-30034688EFB2}">
+										<Image FileName="-2030371292" Left="11" Top="34" Right="475" Bottom="434" />
+										<TypeInfo Item0="{735A2BEA-E04C-41F1-90A6-1405149FFB06}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="Group" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Customer" Key="{B9652E69-A389-45E4-B0C5-F1AF8953B1D0}">
+												<Image FileName="-2030371292" Left="115" Top="194" Right="467" Bottom="214" />
+												<TypeInfo Item0="{1891B5EB-8629-4A96-A62C-7258A42864B4}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Customer" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -105,8 +145,14 @@
 		<Child Name="Orders" Owner="{9AE29EF2-7E79-4372-BB05-72ED8EDA0556}">
 			<Child Name="MainForm" Owner="{51DB3026-FF9F-45D1-BB3B-8BC0CDC42101}">
 				<Child Name="StatusBar" Owner="{479E817A-1E27-4B17-A890-7C41CD7C6EA6}" />
+				<Child Name="ToolBar" Owner="{BFA60EE0-1AE5-4F55-ADD6-8E441D38AA1C}" />
 			</Child>
 			<Child Name="StatusBar" Owner="{479E817A-1E27-4B17-A890-7C41CD7C6EA6}" />
+			<Child Name="OrderForm" Owner="{232C0C66-3FCE-497A-9489-B1CA9247BD14}">
+				<Child Name="Group" Owner="{4DADC6D9-CE9A-4625-AADA-30034688EFB2}">
+					<Child Name="Customer" Owner="{B9652E69-A389-45E4-B0C5-F1AF8953B1D0}" />
+				</Child>
+			</Child>
 		</Child>
 		<Child Name="StatusBar" Owner="{479E817A-1E27-4B17-A890-7C41CD7C6EA6}" />
 		<Child Name="Cotiviti" Owner="{EA49F973-1162-47B6-A681-E61467626DD9}">

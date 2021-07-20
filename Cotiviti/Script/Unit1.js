@@ -8,7 +8,11 @@
 
 function Test1()
 {
-  // Log.Message(Aliases.Cotiviti.MyNewTextbox.wText);
+  //Regions.MyToolbar.Check(Aliases.Orders.MainForm.ToolBar);
+  //Files.Compare("Cotiviti1_txt", "C:\\Users\\Leno\\Documents\\Cotiviti2.txt", -1773839702, true, 3);
+  //aqObject.CheckProperty(Aliases.Orders.OrderForm.Group.Customer, "wText", cmpEqual, "Lino Feather");
+  DBTables.MyDataset.Check();
+  Log.Message(DBTables.MyDataset[2][0]);
 }
 
 function Test2()
