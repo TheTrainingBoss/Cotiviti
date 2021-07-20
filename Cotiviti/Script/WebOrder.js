@@ -1,6 +1,6 @@
 ﻿function Test1()
 {
-  Browsers.Item(btChrome).Navigate("http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx");
+  Browsers.Item(btIExplorer).Navigate("http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx");
   let page = Sys.Browser().Page("http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx");
   let panel = page.Form("aspnetForm").Panel(2);
   let textbox = panel.Textbox("username");
@@ -10,7 +10,7 @@
   page.Wait();
   let table = page.Form("aspnetForm").Table(0);
   table.Cell(0, 1).Panel(1).Panel(2).Table("orderGrid").Cell(2, 6).Click(35, 23);
-  OCR.Recognize(page.Panel(0).Frame("LPFrame")).BlockByText("Not now").Click();
+  //OCR.Recognize(page.Panel(0).Frame("LPFrame")).BlockByText("Not now").Click();
   table.Cell(0, 0).Link(2).Click();
   page.Wait();
   let cell = page.Form("aspnetForm").Table(0).Cell(0, 1).Panel(1).Table("fmwOrder").Cell(0, 0);
