@@ -7,5 +7,10 @@
 		<child name="Service" key="{230C3BB9-EBD7-4C81-A7B4-B0398F8A0434}" path="Service.js" />
 		<child name="webtesting" key="{E126EFFD-0D3F-48E8-B1D8-D4FC307FAF5A}" path="webtesting.js" />
 		<child name="WebOrder" key="{3A4A3A78-A79C-42D3-B83E-DE7D1E315A2B}" path="WebOrder.js" />
+		<child name="Tooltip" key="{CE71E922-C9BC-4B8C-8CBC-E76F549FE013}" path="Tooltip.js" />
+		<child name="EventImplementation" key="{CEBE8B3D-7277-483D-A5E8-5F5B85386F0E}" path="EventImplementation.js" />
+		<child name="FileManipulation" key="{FAB4AF66-7DDA-44F0-A7AA-0A84BBA35084}" path="FileManipulation.js" />
+		<child name="WExplorer" key="{A59384BB-F85A-4206-B90F-AFE0DD21654F}" path="WExplorer.js" />
+		<child name="ExcelScript" key="{223DE5E1-1583-4E6F-85D4-0E94C4E90424}" path="ExcelScript.js" />
 	</children>
 </Root>

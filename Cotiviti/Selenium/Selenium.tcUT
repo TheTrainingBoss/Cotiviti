@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{CCBF15D3-5453-4E8D-891C-1C74B57C6979}" version="14.0">
+	<children>
+		<child name="NUnit1" key="{36CA00DF-3816-440F-A2FC-BBF09856B6EF}" type="NUnit" typeId="{8EF2AC02-5C6C-450B-A99E-A3087761D9D6}" pluginName="NUnit Runner" path="NUnit1\NUnit1.tcNUnit" />
+	</children>
+</Root>

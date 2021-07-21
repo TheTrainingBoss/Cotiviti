@@ -295,6 +295,61 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="CotivitiToolTip" Key="{FF9082EC-F3F6-44CC-8795-A0D76DF3F464}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="CotivitiToolTip" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="Form1" Key="{C5EB5019-3F1E-4986-A60F-2971825643A8}">
+								<Image FileName="1260775702" Left="0" Top="0" Right="816" Bottom="489" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="Form1" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textBox1" Key="{28602114-7A67-41EE-81BF-72D325676DFB}">
+										<Image FileName="1260775702" Left="98" Top="127" Right="275" Bottom="147" />
+										<TypeInfo Item0="{C1F2DBEE-FDFD-4449-8CAE-71A9F86A396B}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="textBox1" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="textBox2" Key="{69496B7B-668A-4F25-8172-BBB0C95FECFC}">
+										<Image FileName="145613506" Left="437" Top="124" Right="679" Bottom="144" />
+										<TypeInfo Item0="{C1F2DBEE-FDFD-4449-8CAE-71A9F86A396B}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="textBox2" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="button1" Key="{2F1C3EA1-96DD-46F4-8756-1D376CE79AD3}">
+										<Image FileName="882327810" Left="285" Top="323" Right="462" Bottom="354" />
+										<TypeInfo Item0="{0D42499B-A444-48A4-A593-5B3524ACF2DF}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="button1" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="label1" Key="{0FF65589-D094-4050-B1D5-BAE319A09D00}">
+										<Image FileName="-2011654632" Left="328" Top="228" Right="347" Bottom="241" />
+										<TypeInfo Item0="{784EB8F5-0F7C-4364-BA0D-D842D267B92B}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="label1" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -343,5 +398,13 @@
 			<Child Name="pageSoftwareTestingMonitoringDev" Owner="{EA15FD5B-BB20-4C30-B187-947B57489536}" />
 		</Child>
 		<Child Name="linkAruna" Owner="{0C39A903-99E0-4D9C-A143-46576F9B4120}" />
+		<Child Name="CotivitiToolTip" Owner="{FF9082EC-F3F6-44CC-8795-A0D76DF3F464}">
+			<Child Name="Form1" Owner="{C5EB5019-3F1E-4986-A60F-2971825643A8}">
+				<Child Name="textBox1" Owner="{28602114-7A67-41EE-81BF-72D325676DFB}" />
+				<Child Name="textBox2" Owner="{69496B7B-668A-4F25-8172-BBB0C95FECFC}" />
+				<Child Name="button1" Owner="{2F1C3EA1-96DD-46F4-8756-1D376CE79AD3}" />
+				<Child Name="label1" Owner="{0FF65589-D094-4050-B1D5-BAE319A09D00}" />
+			</Child>
+		</Child>
 	</LogicalNodes>
 </Root>

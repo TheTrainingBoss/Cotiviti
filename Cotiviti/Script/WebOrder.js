@@ -8,6 +8,7 @@
   panel.PasswordBox("password").SetText(Project.Variables.WebOrdersPassword);
   panel.SubmitButton("button").ClickButton();
   page.Wait();
+  page.WaitProperty("bgcolor","red",20000);
   let table = page.Form("aspnetForm").Table(0);
   table.Cell(0, 1).Panel(1).Panel(2).Table("orderGrid").Cell(2, 6).Click(35, 23);
   //OCR.Recognize(page.Panel(0).Frame("LPFrame")).BlockByText("Not now").Click();

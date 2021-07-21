@@ -7,16 +7,32 @@
 		<child name="Stores" key="{C4736EE0-C141-480A-A1A0-79A48DD1442D}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
 		<child name="MSPaint" key="{453857FF-FB01-4FB4-A90C-5211E286019D}" type="Low-Level Procedures Collection" typeId="{2D89293F-6B07-4679-9906-EFAE4B1A433C}" pluginName="Low-Level Procedures Container" path="MSPaint\MSPaint.tcLLC" />
 		<child name="WebServices" key="{F9FF7AFE-549E-42DB-9127-D5602B15DFDF}" type="Web Services" typeId="{B80B4499-CFD0-49B8-A39C-3264E9ED9080}" pluginName="Web Service Support" path="WebServices\WebServices.tcWSs" />
+		<child name="Events" key="{D3732634-2A85-4392-8EFA-461F86DDEEA5}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
+		<child name="Selenium" key="{E19D77B9-A9E0-4235-99D6-D2BDE704C6C0}" type="Selenium or Unit Testing" typeId="{CCBF15D3-5453-4E8D-891C-1C74B57C6979}" pluginName="Unit Testing" path="Selenium\Selenium.tcUT" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{1767548B-B5C2-492D-BA95-FCEBA6A26814}" version="14">
-		<children />
+		<children>
+			<testItem name="ProjectTestItem1" key="{65A80D99-0789-4BFE-8CA9-C4A8F60803BA}" group="False" parallel="False" enabled="True" testMoniker="{3319D493-D92E-44A8-906C-9FD2B49B9291}foo" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="ProjectTestItem2" key="{5034E14E-48CF-4837-8819-1ACF71D08226}" group="False" parallel="False" enabled="True" testMoniker="UT\{36CA00DF-3816-440F-A2FC-BBF09856B6EF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+		</children>
 	</testItems>
 	<variables key="{B71C2580-64E9-455F-892D-248C3C96F2B6}">
 		<data Version="4">
 			<Items>
 				<Variable Name="WebOrdersPassword" Type="Password" Local="False">
 					<DefValue StrValue="380039003600310036003300440031004600340044003800410042004600340045004300390038004300370046003100380030003900380043003200300037004200460042003000" />
+				</Variable>
+				<Variable Name="Pad" Type="String" Local="False">
+					<DefValue StrValue="btChrome" />
 				</Variable>
 			</Items>
 		</data>
@@ -79,7 +95,7 @@
 				<row val0="Multi-threaded apartment" />
 			</data>
 		</setting>
-		<setting name="CLRBridge_PreferredArchitecture" type="6" rowIndex="1" colIndex="0">
+		<setting name="CLRBridge_PreferredArchitecture" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -535,7 +551,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="2" colIndex="1">
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="0" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />
@@ -588,7 +604,7 @@
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
-		<setting name="Playback_StopOnError" type="1" value="True" />
+		<setting name="Playback_StopOnError" type="1" value="False" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
 		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />

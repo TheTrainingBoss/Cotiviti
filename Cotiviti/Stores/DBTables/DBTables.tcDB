@@ -2,5 +2,6 @@
 <Root signature="{C3BE8E0F-FB1F-487B-9AE3-BCFEB91CBEFF}" version="14.0">
 	<children>
 		<child name="MyDataset" key="{CE52BB7C-6DD1-4745-BBE6-A8CB09AEED7B}" path="MyDataset.tcBTable" />
+		<child name="ArunaDataset" key="{211DC54C-A368-445D-8ADA-6AC80D900E71}" path="ArunaDataset.tcBTable" />
 	</children>
 </Root>

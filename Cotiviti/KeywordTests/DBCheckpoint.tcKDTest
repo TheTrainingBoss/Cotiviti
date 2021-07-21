@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{73C73209-3EB7-4B2E-A588-296E66239393}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{AE794690-DDF6-4B63-8E92-60B253E7F7CA}">
+				<Data Description="Compares the %n Stores element with values stored in the database specified by the element properties." Checkpoint="ArunaDataset" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{77BC06A3-0F52-402E-A5D1-AAF8CF10EBC3}" />
+</Root>

@@ -7,5 +7,7 @@
 		<child name="CompareWeb" key="{FFF70E2A-7B5C-4F85-8541-B5FF2AF9B4F0}" path="CompareWeb.tcKDTest" />
 		<child name="WebAccessessibility" key="{DFCD170A-F19B-400A-8DA6-C218C8D89C2A}" path="WebAccessessibility.tcKDTest" />
 		<child name="Audit" key="{1C96C19C-2A5C-4933-92CC-ABD50A82A9C5}" path="Audit.tcKDTest" />
+		<child name="DBCheckpoint" key="{09AC4262-10D6-47F1-9AF1-EF5005071EA9}" path="DBCheckpoint.tcKDTest" />
+		<child name="ExcelTest" key="{2B2AC810-F894-4970-90B8-2A50FBD07DB9}" path="ExcelTest.tcKDTest" />
 	</children>
 </Root>

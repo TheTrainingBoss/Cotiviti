@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<Table Name="ArunaDataset">
+		<Source ConnectionString="Provider=SQLNCLI11.1;Integrated Security=SSPI;Persist Security Info=False;User ID=&quot;&quot;;Initial Catalog=TestComplete;Data Source=.\sqlexpress;Initial File Name=&quot;&quot;;Server SPN=&quot;&quot;" Object="Table" DataObjectContent="Info&#13;&#10;dbo">
+			<DataExtraction Type="" />
+		</Source>
+		<Columns>
+			<Column>id</Column>
+			<Column>name</Column>
+			<Column>street</Column>
+			<Column>city</Column>
+			<Column>state</Column>
+			<Column>zip</Column>
+			<Column>ccard</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="Integer">1</Cell>
+				<Cell Type="String">Louis&#32;&#32;&#32;&#32;&#32;</Cell>
+				<Cell Type="String">123 str&#32;&#32;&#32;</Cell>
+				<Cell Type="String">New York&#32;&#32;</Cell>
+				<Cell Type="String">NY&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</Cell>
+				<Cell Type="String">12345&#32;&#32;&#32;&#32;&#32;</Cell>
+				<Cell Type="String">343434544545</Cell>
+			</Row>
+			<Row>
+				<Cell Type="Integer">2</Cell>
+				<Cell Type="String">Bob&#32;&#32;&#32;&#32;&#32;&#32;&#32;</Cell>
+				<Cell Type="String">456 Dr&#32;&#32;&#32;&#32;</Cell>
+				<Cell Type="String">Boston&#32;&#32;&#32;&#32;</Cell>
+				<Cell Type="String">MA&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</Cell>
+				<Cell Type="String">01234&#32;&#32;&#32;&#32;&#32;</Cell>
+				<Cell Type="String">454566567878</Cell>
+			</Row>
+			<Row>
+				<Cell Type="Integer">3</Cell>
+				<Cell Type="String">Tim&#32;&#32;&#32;&#32;&#32;&#32;&#32;</Cell>
+				<Cell Type="String">789 Blvd&#32;&#32;</Cell>
+				<Cell Type="String">San Jose&#32;&#32;</Cell>
+				<Cell Type="String">CA&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</Cell>
+				<Cell Type="String">94120&#32;&#32;&#32;&#32;&#32;</Cell>
+				<Cell Type="String">565675676767</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

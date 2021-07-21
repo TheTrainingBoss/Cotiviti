@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" version="1400" key="{D3732634-2A85-4392-8EFA-461F86DDEEA5}" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}">
+	<config nodeName="Events" tlbHistory="" />
+	<testData />
+	<data />
+	<children>
+		<child key="{60C55E6B-F69D-46ED-9B2D-68CAFEF9F770}">
+			<config nodeName="CotivitiEvents" lastOpenedTLB="" generatedCLSID="{D9AD87B1-DD25-4D2E-9C2E-D1CC79A58E28}" generatedTLBKey="{AF763285-7F40-424A-9874-95FB5B3B59FC}" generatedEventsKey="{F6A402E8-1F7E-4AE5-84A0-ACCBE16FC736}" generatedTLBDesc="TestComplete CotivitiEvents Control - 7/21/2021 7:43:51 AM">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743811" infoControlName="General Events" infoEventName="OnLogError" infoEventRealName="OnLogError" infoDescription="Occurs when an error message is posted to the test log." />
+				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743818" infoControlName="General Events" infoEventName="OnUnexpectedWindow" infoEventRealName="OnUnexpectedWindow" infoDescription="Occurs when an unexpected window appears." />
+				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743819" infoControlName="General Events" infoEventName="OnOverlappingWindow" infoEventRealName="OnOverlappingWindow" infoDescription="Occurs when an overlapping window appears." />
+				<handlerInfo handlerName="CotivitiEvents_OnLogError" handlerMoniker="{CEBE8B3D-7277-483D-A5E8-5F5B85386F0E}CotivitiEvents_OnLogError" handlerEventName="OnLogError" handlerRealIID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" handlerRealDispID="1610743811" />
+				<handlerInfo handlerName="CotivitiEvents_OnOverlappingWindow" handlerMoniker="{CEBE8B3D-7277-483D-A5E8-5F5B85386F0E}CotivitiEvents_OnOverlappingWindow" handlerEventName="OnOverlappingWindow" handlerRealIID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" handlerRealDispID="1610743819" />
+				<handlerInfo handlerName="CotivitiEvents_OnUnexpectedWindow" handlerMoniker="{CEBE8B3D-7277-483D-A5E8-5F5B85386F0E}CotivitiEvents_OnUnexpectedWindow" handlerEventName="OnUnexpectedWindow" handlerRealIID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" handlerRealDispID="1610743818" />
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>
